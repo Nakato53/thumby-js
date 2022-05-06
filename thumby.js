@@ -1,9 +1,6 @@
 const THUMBY_WIDTH = 72;
 const THUMBY_HEIGHT = 40;
 
-const updateEvent = new Event('onUpdate');
-const drawEvent = new Event('onDraw');
-
 const FPS = 60/1000;
 
 export default class Thumby{
